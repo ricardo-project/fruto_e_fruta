@@ -1,0 +1,90 @@
+@media only screen and (min-width: 0px) {
+    .content {
+        flex-direction: column
+    } .content > aside {
+        width: 100%;
+        height: 180px;
+    } .content > article {
+        width: 100%
+    } .menuPagina {
+        flex-direction: row
+    } .menuPagina__reta {
+        transform: rotate(-90deg);
+    } .comunit {
+        margin: 20px 0px
+    } .comunit__img {
+        width: 220px;
+        height: 220px;
+    } .comunit__descrit {
+        max-height: 250px;
+        width: calc(100% - 230px)
+    } .comunit__descrit > strong {
+        font-size: 50px
+    } .comunit__descrit > p {
+        margin-top: 8px;
+        font-size: 14px;
+    } .menuRct--receita > img {
+        width: 100%
+    } .menuPagina__bola {
+        flex-direction: column;
+    } .menuPagina__bola__p {
+        width: max-content;
+        height: 0px
+    } .title {
+        font-size: 70px;
+    } .introd {
+        height: 820px
+    } .introd > article {
+        height: 680px
+    }
+} @media only screen and (min-width: 900px) {
+    .content {
+        flex-direction: row
+    } .content > aside {
+        width: 300px;
+        height: calc(100vh - 104px);
+    } .content > article {
+        width: calc(100% - 300px)
+    } .menuPagina {
+        flex-direction: column
+    } .menuPagina__reta {
+        transform: rotate(0deg)
+    } .menuPagina__bola {
+        flex-direction: row;
+    } .menuPagina__bola__p {
+        width: 0px;
+        height: 100%
+    } .title {
+        font-size: 120px;
+    } .introd {
+        height: 920px
+    } .introd > article {
+        height: 780px
+    }
+} @media only screen and (min-width: 1200px) {
+    .comunit {
+        margin: 40px 0px
+    } .comunit__img {
+        width: 320px;
+        height: 320px;
+    } .comunit__descrit {
+        max-height: 350px;
+        width: calc(100% - 380px)
+    } .comunit__descrit > strong {
+        font-size: 70px;
+    } .comunit__descrit > p {
+        margin-top: 10px;
+        font-size: 18px
+    }
+} @media only screen and (min-width: 1300px) {
+    .menuRct--receita > img {
+        width: 400px
+    }
+}
+@keyframes moveBck {
+    from { background-position: 0px 0px }
+    to { background-position: 300px 0px }
+} @keyframes moveWave {
+    from { background-position: 600px 0px }
+    to { background-position: 0px 0px }
+}
